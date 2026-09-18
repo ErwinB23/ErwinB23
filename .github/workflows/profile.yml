@@ -1,0 +1,52 @@
+name: Actualizar perfil
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 11 * * *'
+  push:
+    paths:
+      - '.github/workflows/profile.yml'
+      - 'scripts/update-stats.mjs'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.repository == 'ErwinB23/ErwinB23'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Actualizar estadísticas públicas
+        run: node scripts/update-stats.mjs
+        env:
+          PROFILE_USERNAME: ErwinB23
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generar snake de ErwinB23
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ErwinB23
+          outputs: |
+            assets/snake.svg?color_snake=#a78bfa&color_dots=#202b43,#334b86,#5c65c0,#9382e6,#bdebf5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Guardar recursos actualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats-*.svg assets/activity-*.svg assets/languages-*.svg assets/stats-data.json assets/snake.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: actualizar actividad del perfil [skip ci]"
+            git push
+          fi
