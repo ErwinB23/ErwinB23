@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="36" viewBox="0 0 84 36" role="img"><title>Kimi</title>
+    <rect x=".5" y=".5" width="83" height="35" rx="8" fill="#151c30" stroke="#36415b"/>
+    <rect x="7" y="6" width="25" height="24" rx="6" fill="#a5b4fc" fill-opacity=".12"/>
+    <text x="19.5" y="22.5" text-anchor="middle" fill="#a5b4fc" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">K</text>
+    <text x="40" y="23" fill="#e9eefc" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Kimi</text>
+  </svg>

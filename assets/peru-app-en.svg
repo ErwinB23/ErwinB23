@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="340" viewBox="0 0 1200 340" role="img"><title>Peru App | React · JavaScript · HTML5 · CSS3</title>
+    <defs>
+      <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#151d39"/><stop offset="1" stop-color="#201544"/></linearGradient>
+      <linearGradient id="ridge" x2="1" y2="1"><stop stop-color="#536dc0"/><stop offset="1" stop-color="#31234f"/></linearGradient>
+      <linearGradient id="near"><stop stop-color="#294667"/><stop offset="1" stop-color="#6853a4"/></linearGradient>
+      <clipPath id="clip"><rect width="1200" height="340" rx="20"/></clipPath>
+    </defs>
+    <g clip-path="url(#clip)">
+      <rect width="1200" height="340" fill="url(#bg)"/>
+      <g fill="none" stroke="#848ac7" stroke-opacity=".12"><circle cx="975" cy="136" r="180"/><circle cx="975" cy="136" r="150"/><circle cx="975" cy="136" r="120"/></g>
+      <circle cx="987" cy="105" r="42" fill="#9bb8ff"/>
+      <path d="M567 340L803 88L927 246L1030 148L1200 340Z" fill="url(#ridge)"/>
+      <path d="M757 139L803 88L850 148L817 135L801 148L785 132Z" fill="#b2c8ec"/>
+      <path d="M650 340L894 204L990 286L1102 217L1240 340Z" fill="url(#near)"/>
+      <path d="M670 330Q785 275 867 286T1045 285" stroke="#7dd3fc" stroke-width="2" fill="none" stroke-dasharray="5 7"/>
+      <circle cx="867" cy="286" r="5" fill="#a5f3fc"/>
+      <text x="48" y="52" fill="#a5b4fc" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="3">FEATURED PROJECT / 01</text>
+      <text x="43" y="134" fill="#f1f5ff" font-family="Segoe UI,Arial,sans-serif" font-size="74" font-weight="750" letter-spacing="-2">PERÚ APP</text>
+      <text x="48" y="181" fill="#a5f3fc" font-family="Segoe UI,Arial,sans-serif" font-size="27">One country. A thousand stories.</text>
+      <text x="48" y="225" fill="#bdc6df" font-family="Segoe UI,Arial,sans-serif" font-size="16">Explore its culture, diversity and richness.</text>
+      <rect x="48" y="273" width="308" height="30" rx="15" fill="#0c1427" stroke="#414369"/>
+      <text x="65" y="293" fill="#d7d9f5" font-family="Segoe UI,Arial,sans-serif" font-size="13">REACT · JAVASCRIPT · HTML5 · CSS3</text>
+    </g>
+  </svg>

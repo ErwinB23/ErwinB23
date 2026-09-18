@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="130" viewBox="0 0 900 130" role="img"><title>Snake: pending first GitHub Actions run</title>
+    <rect width="900" height="130" rx="16" fill="#11182b"/>
+    <path d="M42 64h44v-20h38v38h38" fill="none" stroke="#a78bfa" stroke-width="10" stroke-linejoin="round"/>
+    <text x="202" y="57" fill="#e8edff" font-family="Segoe UI,Arial,sans-serif" font-size="20">Tu snake se activará con GitHub Actions.</text>
+    <text x="202" y="89" fill="#a4aecb" font-family="Segoe UI,Arial,sans-serif" font-size="17">Your contribution snake activates after the first workflow run.</text>
+  </svg>

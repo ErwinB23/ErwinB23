@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="150" viewBox="0 0 1200 150" role="img"><title>Learn. Build. Share.</title>
+    <defs><linearGradient id="a"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+    <rect width="1200" height="150" rx="20" fill="#101629"/>
+    <path d="M48 1H1152" stroke="url(#a)"/>
+    <text x="600" y="68" fill="url(#a)" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="650" text-anchor="middle">Learn. Build. Share.</text>
+    <text x="600" y="105" fill="#a6b1ce" font-family="Segoe UI,Arial,sans-serif" font-size="17" text-anchor="middle">Thanks for visiting my profile — ErwinB23</text>
+  </svg>
