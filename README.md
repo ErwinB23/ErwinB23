@@ -140,9 +140,8 @@ La distribución refleja el código de mis repositorios públicos, no mi nivel d
   <a href="https://www.facebook.com/brayan.incapauccara.7/"><img src="assets/badges/facebook.svg" height="36" alt="Facebook" /></a>
   <a href="https://www.instagram.com/erwinip/"><img src="assets/badges/instagram.svg" height="36" alt="Instagram" /></a>
   <a href="https://www.linkedin.com/in/erwin-inca-pauccara-07b445243/"><img src="assets/badges/linkedin.svg" height="36" alt="LinkedIn" /></a>
-  <a href="mailto:brayam231000@gmail.com"><img src="assets/badges/gmail.svg" height="36" alt="Gmail: brayam231000@gmail.com" /></a>
-  <!-- TIKTOK: sustituye esta insignia por un enlace cuando tengas tu URL; consulta GUIA.md. -->
-  <img src="assets/badges/tiktok-es.svg" height="36" alt="TikTok: próximamente" />
+  <a href="mailto:brayam231000@gmail.com" ><img src="assets/badges/gmail.svg" height="36" alt="Gmail: brayam231000@gmail.com" /></a>
+  <a href="https://www.tiktok.com/@erwinbrayamip?_r=1&_t=ZS-99pO9zgpdJf"><img src="assets/badges/tiktok.svg" height="36" alt="TikTok" /></a>
 </p>
 
 <p align="center">
