@@ -1,16 +1,16 @@
 {
   "username": "ErwinB23",
-  "updated": "2026-09-18T05:01:40.052Z",
+  "updated": "2026-09-18T05:38:23.248Z",
   "publicRepos": 7,
   "originalRepos": 7,
   "followers": 0,
-  "totalContributions": 118,
-  "longestStreak": 2,
+  "totalContributions": 115,
+  "longestStreak": 3,
   "from": "2025-09-14",
   "to": "2026-09-18",
   "languages": {
+    "JavaScript": 961502,
     "Jupyter Notebook": 187293,
-    "JavaScript": 940690,
     "CSS": 300836,
     "PowerShell": 144142,
     "TSQL": 41988,
@@ -159,13 +159,13 @@
     },
     {
       "date": "2025-10-12",
-      "count": 5,
-      "level": 4
+      "count": 0,
+      "level": 0
     },
     {
       "date": "2025-10-13",
-      "count": 1,
-      "level": 1
+      "count": 0,
+      "level": 0
     },
     {
       "date": "2025-10-14",
@@ -1864,8 +1864,8 @@
     },
     {
       "date": "2026-09-18",
-      "count": 0,
-      "level": 0
+      "count": 3,
+      "level": 2
     }
   ]
 }
