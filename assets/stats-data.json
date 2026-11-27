@@ -1,22 +1,22 @@
 {
   "username": "ErwinB23",
-  "updated": "2026-11-26T20:16:53.943Z",
-  "publicRepos": 10,
-  "originalRepos": 9,
+  "updated": "2026-11-27T20:03:17.878Z",
+  "publicRepos": 11,
+  "originalRepos": 10,
   "followers": 2,
-  "totalContributions": 178,
+  "totalContributions": 179,
   "longestStreak": 4,
   "from": "2025-11-23",
-  "to": "2026-11-26",
+  "to": "2026-11-27",
   "languages": {
-    "JavaScript": 3900903,
-    "TypeScript": 1161425,
-    "PLpgSQL": 300595,
+    "JavaScript": 5561070,
+    "TypeScript": 3089038,
+    "PLpgSQL": 835647,
     "Python": 107613,
+    "PowerShell": 217189,
     "Jupyter Notebook": 214246,
     "HTML": 598,
     "CSS": 300916,
-    "PowerShell": 144142,
     "TSQL": 41988
   },
   "days": [
@@ -1857,11 +1857,16 @@
     },
     {
       "date": "2026-11-25",
-      "count": 1,
+      "count": 2,
       "level": 1
     },
     {
       "date": "2026-11-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-11-27",
       "count": 0,
       "level": 0
     }
